@@ -75,6 +75,8 @@ If you don't want to start from one of the recommended samples, you'll need to:
   ```csharp
   app.UseDeveloperExceptionPage();
 
+  app.UseForwardedHeaders();
+
   app.UseRouting();
   app.UseCors();
 
